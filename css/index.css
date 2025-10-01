@@ -1,0 +1,78 @@
+.div_container{
+    width: 10%;
+    height: 10%;
+    background: hotpink;
+    border: 1px solid blue;
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
+h1{
+    color: black!important;
+    font-size: 3vw;
+    margin-left: 25%;
+    width: 70%;
+}
+
+nav{
+    background: white;
+    width: 300px;
+    position: fixed;
+    top: 45px;
+    left: 10px;
+    padding: 10 px;
+    box-sizing: border-box;
+    opacity: 0.1;
+    transition: all 0.5s ease;
+}
+
+nav:hover{
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+nav > li > a
+
+h1, h2,h3, p, ul, ol, div, img, hr{
+    width: 700px;
+    margin: 20px auto;
+}
+
+.img_apart{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+h1 + p{
+    margin-top: 8px;
+    line-height: 32px;
+    font-size: 22px;
+    color: rgb(0, 0, 0, 0.4);
+
+}
+
+blockquote{
+    margin-top: 30px;
+    margin-left: 20%;
+    border-left: 1px solid palevioletred;
+    width: 60%;
+    padding: 1%;
+}
+
+.container_img{
+    display: flex;
+
+}
+
+.container_img > img{
+    width: 35;
+    margin: 1%;
+}
+
+.test>div{
+    width: 30%;
+    height: 300px;
+    background: palevioletred;
+    margin: 1%;
+}
